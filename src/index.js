@@ -1,24 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-// import App1 from './App1';
-// import App2 from './App2';
-
-
 import reportWebVitals from './reportWebVitals';
-import AppArticle from './composantsT/AppArticle';
-import AppEx7 from './composantsT/AppEx7';
-import App7 from './composantsT/App7';
+import Grp204WeatherApp from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App1/> */}
-    {/* <App2/> */}
-    {/* <AppEx7 /> */}
-    {/* <AppArticle/> */}
-    <App7 />
+  <Grp204WeatherApp/>
+  
   </React.StrictMode>
  
 );
